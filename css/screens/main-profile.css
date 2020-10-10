@@ -17,6 +17,12 @@
   border-radius: 100%;
   box-shadow: 0 0 3px 3px #e4e2db;
 }
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .profile-name h1 {
   font-size: 27px;
