@@ -1,0 +1,33 @@
+.album-img {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.album-img img {
+  width: 260px;
+  height: 260px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 30px thistle;
+}
+
+.stream-btn {
+  margin: 80px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.stream-btn i:nth-child(3) {
+  position: relative;
+  color: #b6666f;
+  bottom: 20px;
+}
+.stream-btn i:nth-child(2),
+.stream-btn i:nth-child(4) {
+  color: #b6666f;
+}
+
+.stream-btn i:first-child,
+.stream-btn i:last-child {
+  color: #dea080;
+}

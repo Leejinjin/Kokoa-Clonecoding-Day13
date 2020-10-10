@@ -1,0 +1,28 @@
+.play-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play-bar {
+  width: 290px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: #dea080;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.play-bar > .song-profile > .song-singer {
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.play-bar > .song-profile {
+  margin-right: 1px;
+}
+
+.play-btn i {
+  margin: 0 10px;
+}

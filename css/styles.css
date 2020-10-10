@@ -1,0 +1,26 @@
+@import "components/nav-bar.css";
+@import "components/song-column.css";
+@import "components/song-profile.css";
+@import "screens/main-profile.css";
+@import "screens/play-btn.css";
+@import "screens/steaming.css";
+@import "screens/play-time.css";
+body {
+  background-color: #e4c1c2;
+  height: 850px;
+  width: 900px;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+.main-column {
+  width: 350px;
+  height: 750px;
+  background-color: #fef2f2;
+  border-radius: 50px;
+  box-shadow: 2px 2px 20px #ece4e6;
+}

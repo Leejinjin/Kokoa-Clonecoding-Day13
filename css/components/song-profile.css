@@ -1,0 +1,18 @@
+.song-profile {
+  padding-right: 90px;
+}
+
+.song-singer {
+  font-size: 15px;
+  color: #b6666f;
+  padding: 2px 10px;
+  font-weight: 700;
+}
+.song-name {
+  font-size: 23px;
+  padding: 2px 10px;
+  font-weight: 700;
+}
+.song-btn {
+  color: #b6666f;
+}
